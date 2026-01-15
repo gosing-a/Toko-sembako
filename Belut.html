@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Spesialis Olahan Belut | Dapoer-CJ</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#ecb613",
+              "background-light": "#f8f8f6",
+              "background-dark": "#221d10",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#181611] dark:text-white transition-colors duration-300">
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-solid border-[#f4f3f0] dark:border-[#3d3624] px-4 md:px-20 lg:px-40 py-3">
+<div class="max-w-[1200px] mx-auto flex items-center justify-between">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3">
+<div class="size-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold tracking-tight">Dapoer-CJ</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Beranda</a>
+<a class="text-sm font-bold text-primary border-b-2 border-primary" href="#">Spesialis Belut</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Sembako</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Testimoni</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Kontak</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-lg">search</span>
+<input class="bg-[#f4f3f0] dark:bg-[#3d3624] border-none rounded-lg pl-10 pr-4 py-2 text-sm focus:ring-1 focus:ring-primary w-48 xl:w-64" placeholder="Cari olahan belut..." type="text"/>
+</div>
+<button class="bg-primary text-[#181611] px-5 py-2 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all shadow-sm">
+                    Pesan Sekarang
+                </button>
+</div>
+</div>
+</header>
+<main class="max-w-[1200px] mx-auto pb-20">
+<section class="px-4 py-8 md:py-16">
+<div class="@container">
+<div class="flex flex-col gap-10 lg:flex-row items-center">
+<div class="w-full lg:w-1/2 relative">
+<div class="w-full aspect-square bg-center bg-no-repeat bg-cover rounded-2xl shadow-2xl border-8 border-white dark:border-[#3d3624]" data-alt="Close up of premium Rendang Belut dish with garnishes" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCz1uMn5x3lXXx7oNNIypmQpf24FKHio7i8P4ElcCw5zb9fTbo9ghCI6ylkwAeAhWi1MLfdZ1CHAoxWiFZM5iHUFxiB-dDnz9uDOS2RpcK9rb1RxZSzcStOEA260WEk17_NxbT5CMg5IVXNV2ubecuLew-hcLOlMp21AMYtzED0GMCUIZpYaPJuxriVhRViRHbAaeFzeQyjviy5oCNlmn9LMAeVgC2SuCHL52m3Te42ZoItv_R1lF1xrf9c6-bBqXK95HNz-jYN9a8F");'>
+</div>
+<div class="absolute -bottom-6 -right-6 bg-primary p-6 rounded-xl shadow-lg hidden md:block">
+<p class="text-[#181611] font-black text-2xl uppercase tracking-tighter">RESEP</p>
+<p class="text-[#181611] font-medium text-sm leading-tight">Warisan Keluarga<br/>Sejak 1995</p>
+</div>
+</div>
+<div class="w-full lg:w-1/2 flex flex-col gap-8">
+<div class="flex flex-col gap-4">
+<span class="text-primary font-bold tracking-widest uppercase text-sm">Edisi Spesialis</span>
+<h1 class="text-4xl md:text-6xl font-black leading-tight tracking-tight">
+                                Cita Rasa Otentik <br/>
+<span class="text-primary">Olahan Belut</span> Premium
+                            </h1>
+<p class="text-lg text-gray-600 dark:text-gray-300 max-w-lg leading-relaxed">
+                                Perayaan tradisi dengan sentuhan elegan dari dapur kami. Dimasak perlahan selama 8 jam dengan bumbu warisan untuk tekstur sempurna yang lumer di mulut.
+                            </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-[#181611] px-8 py-4 rounded-xl font-bold text-lg hover:shadow-lg hover:-translate-y-1 transition-all flex items-center gap-2">
+<span class="material-symbols-outlined">restaurant_menu</span>
+                                Jelajahi Menu
+                            </button>
+<button class="bg-[#f4f3f0] dark:bg-[#3d3624] text-[#181611] dark:text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-[#e6e3db] transition-all flex items-center gap-2">
+<span class="material-symbols-outlined">chat</span>
+                                Order via WhatsApp
+                            </button>
+</div>
+<div class="flex items-center gap-6 pt-4 border-t border-[#e6e3db] dark:border-[#3d3624]">
+<div class="flex -space-x-3">
+<div class="size-10 rounded-full border-2 border-white bg-cover bg-center" data-alt="Customer avatar 1" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBlK7_y035evnaQWovNDoCm-ZdGkcsST1t7NPI8YFxu5QIZQI3yfSDVTh392O4DTO-YPnkxCtNm0r2_KEjD7wcizzK_cIZaYVPhtZKO7tlwgGxSZlNNIhEs1leurJ7nOopDK46AQC5PcPFUUyZGphJNSRfoC4OkoZTjsHxC_imBWPRSthYd-m8qmZZHQdPOMT2BhoFQKKo25P1H9vvF_w0BwMluyBP3Kjjzqu5hMtNn6wiUoT1j0a8rcJH524MK8_4bSHn0w1IbVv-J')"></div>
+<div class="size-10 rounded-full border-2 border-white bg-cover bg-center" data-alt="Customer avatar 2" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDbQqBGjPp1VsJTOYWC0-FCCAlxwRpKVLfAL6LWF0930TvyRNopY4CEY3AOA7rDzh6BGr_yIqxPM60p54dKBd-TJ_oxFEHfCJcqIuEHxi7EufjnfhpnJTq-ly1GthGFaaBZPwmOo4dOsaDC9fzfTOW5bHfD9cT0rJiYoocBwVXQGtqIzYdCSAgQSuMmcsQWXu3tgq3upqPSc_NT03dGMk_x6t3FrjKnPsWwkV-dGAHoCapaOn2OEiYQZiEn62uoAC8aaNqNYt8uh4-L')"></div>
+<div class="size-10 rounded-full border-2 border-white bg-cover bg-center" data-alt="Customer avatar 3" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCUu9gyW-GlgPFd4h-9SE2lw6aXmCtHECqQ9LWjuNv_7ULmF2fQyh_g1-VWBSOYos-hltjdrTU451wIc6IM8Y5sXU6iFP9PFlnAmC61rzO5s7bSMqfwq-ZXoIhC65nUoKUBdzloJ9LJX0_k6nil8PwQhnPF60xEwkt2ig7YM6KozKqXh6PkF-APNIna2DLO1F1Yz1nYdSh7aqxZBl5Na2N9yoXGqNaG455lexeGXXXHAZQwXzpwwbPwkpGXPdxVrI01rzmkQIC90Oqr')"></div>
+</div>
+<p class="text-sm font-medium text-gray-500">Dipesan oleh 2.400+ pecinta kuliner bulan ini</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-4 py-12">
+<div class="bg-white dark:bg-[#2c2616] rounded-3xl p-8 md:p-12 shadow-sm border border-[#e6e3db] dark:border-[#3d3624]">
+<div class="grid md:grid-cols-3 gap-12">
+<div class="flex flex-col items-center text-center gap-4">
+<div class="size-16 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined scale-150">eco</span>
+</div>
+<h3 class="text-xl font-bold">Bahan Baku Premium</h3>
+<p class="text-gray-500 dark:text-gray-400">Belut sawah segar yang dipanen secara berkelanjutan dan dibersihkan dengan standar kualitas tertinggi.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4">
+<div class="size-16 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined scale-150">skillet</span>
+</div>
+<h3 class="text-xl font-bold">Resep Warisan</h3>
+<p class="text-gray-500 dark:text-gray-400">Dimasak perlahan menggunakan api kayu tradisional dan 12 macam rempah nusantara pilihan.</p>
+</div>
+<div class="flex flex-col items-center text-center gap-4">
+<div class="size-16 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined scale-150">verified_user</span>
+</div>
+<h3 class="text-xl font-bold">Tanpa Pengawet</h3>
+<p class="text-gray-500 dark:text-gray-400">Dikemas dengan teknologi vakum modern untuk menjaga kesegaran alami tanpa bahan kimia.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="px-4 pt-16 flex flex-col md:flex-row md:items-end justify-between gap-4">
+<div class="flex flex-col gap-2">
+<h2 class="text-3xl md:text-4xl font-bold leading-tight tracking-tight">Koleksi Spesialis Olahan Belut</h2>
+<p class="text-gray-500">Variasi gourmet yang dikurasi untuk memuaskan selera yang paling pemilih</p>
+</div>
+<a class="text-primary font-bold flex items-center gap-1 hover:underline group" href="#">
+                Lihat Semua Variasi <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</section>
+<section class="px-4 py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group flex flex-col gap-4 bg-white dark:bg-[#2c2616] p-4 rounded-2xl shadow-sm border border-[#e6e3db] dark:border-[#3d3624] hover:shadow-xl transition-all">
+<div class="relative overflow-hidden rounded-xl aspect-[4/5]">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover group-hover:scale-110 transition-transform duration-500" data-alt="Indonesian Rendang Belut with spicy red curry base" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1w9yp7crpCl3sp6HU1_0t62268JvGgq0MHc-LUCUsTwclKBnOn5YUazu1Ww7P-_7s43lBFy39zkI_nXI9JulaTh0i5Zc_IsJUlseG3AQYg_zFHmrkKuda4HoJJ8s_aMTJ21bRSajA18fAOTtWCPp8u2wVK3VDk5zO79j06wnxD7ZcCjSvtuTvp50xoSozChu5H5jC9f5X2O1_v-AAv8BylU7q5blTMz-n8c0KiX5QOb3XWPMFIkTjTXEUpToOAO7Ou1uU6YZIFQpZ");'></div>
+<div class="absolute top-4 left-4 bg-primary text-[#181611] text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Unggulan</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="text-xl font-bold">Rendang Belut Paru</h3>
+<span class="text-primary font-black">Rp 125.000</span>
+</div>
+<p class="text-gray-500 text-sm leading-relaxed">
+                        Perpaduan unik belut goreng renyah dan paru sapi empuk yang dimasak dalam bumbu rendang aromatik yang kaya rasa.
+                    </p>
+<div class="bg-[#f4f3f0]/50 dark:bg-[#3d3624]/30 p-3 rounded-lg mt-2">
+<p class="text-[10px] uppercase font-bold text-primary mb-1 tracking-wider">Saran Penyajian</p>
+<p class="text-xs text-gray-500 italic leading-snug">Nikmati dengan nasi melati hangat dan gulai daun singkong untuk pengalaman kuliner terbaik.</p>
+</div>
+<div class="flex items-center gap-2 mt-2">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+</div>
+<span class="text-xs text-gray-400">(128 ulasan)</span>
+</div>
+<button class="mt-4 w-full py-3 bg-[#f4f3f0] dark:bg-[#3d3624] rounded-lg font-bold group-hover:bg-primary group-hover:text-[#181611] transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-xl">shopping_bag</span> Tambah ke Keranjang
+                    </button>
+</div>
+</div>
+<div class="group flex flex-col gap-4 bg-white dark:bg-[#2c2616] p-4 rounded-2xl shadow-sm border border-[#e6e3db] dark:border-[#3d3624] hover:shadow-xl transition-all">
+<div class="relative overflow-hidden rounded-xl aspect-[4/5]">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover group-hover:scale-110 transition-transform duration-500" data-alt="Sambal Belut Pedas served in a traditional mortar" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBn4TRq5RzwphwZsDPDeFjj6mdYjwEry8D2CGbTytzIO9cL6-wQbAmb5Jvmq4hu7J7pf7FMX5O9jhnthULydsx1NNBeKvRHNtW1ihRVhArLdp4gcpz-V5BdYqxZxZOsUTgHATOueRn1f3_8kl5z8X-fThWA8hmZnR7hjfLmBvZhcKjB-IGmysSUXae_vtw9HGtz9rVZuEqPi4RpNhkUgBNadjxBRaTTf_9c9q2q65oH7TRW4mQL2JUIwt6qLZAzSG5aTwzSv82hvL7f");'></div>
+<div class="absolute top-4 left-4 bg-red-600 text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Pedas Mantap</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="text-xl font-bold">Sambal Belut Pedas</h3>
+<span class="text-primary font-black">Rp 95.000</span>
+</div>
+<p class="text-gray-500 text-sm leading-relaxed">
+                        Sensasi pedas yang bikin ketagihan, diolah dari cabai rawit pilihan dan bawang merah yang dikaramelisasi sempurna.
+                    </p>
+<div class="bg-[#f4f3f0]/50 dark:bg-[#3d3624]/30 p-3 rounded-lg mt-2">
+<p class="text-[10px] uppercase font-bold text-primary mb-1 tracking-wider">Saran Penyajian</p>
+<p class="text-xs text-gray-500 italic leading-snug">Sangat cocok sebagai pelengkap ayam bakar atau dicampur langsung ke dalam nasi goreng.</p>
+</div>
+<div class="flex items-center gap-2 mt-2">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+</div>
+<span class="text-xs text-gray-400">(94 ulasan)</span>
+</div>
+<button class="mt-4 w-full py-3 bg-[#f4f3f0] dark:bg-[#3d3624] rounded-lg font-bold group-hover:bg-primary group-hover:text-[#181611] transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-xl">shopping_bag</span> Tambah ke Keranjang
+                    </button>
+</div>
+</div>
+<div class="group flex flex-col gap-4 bg-white dark:bg-[#2c2616] p-4 rounded-2xl shadow-sm border border-[#e6e3db] dark:border-[#3d3624] hover:shadow-xl transition-all">
+<div class="relative overflow-hidden rounded-xl aspect-[4/5]">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover group-hover:scale-110 transition-transform duration-500" data-alt="Crispy Fried Eel sticks on a white plate" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB0w-dLj6X8JonB6fiHmUGA-MK0X8odgWjGM0WNeD1E8XfgPUWdV-MZlxvtC0g3JPwvyeT0sEAHLwuOwj3-IdbZq6xAhLT6i_1XQRgOfA4tIrmq9BLF43USdOIknbqyIADVlGa0itv-ZrElOfl-nQbohwb9MB8AVOOn_bwc3uwIVBZtjZRtLywAJ3eM5v7mgwEltN4wgnfgYX_fQIC4MZy-3N7dPnD59n9nAiUx3JEekyZ71x5OBhthmkV2T4r7QK4a16Rq54Pl4Hbj");'></div>
+<div class="absolute top-4 left-4 bg-primary text-[#181611] text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Kudapan</div>
+</div>
+<div class="flex flex-col gap-2">
+<div class="flex justify-between items-start">
+<h3 class="text-xl font-bold">Belut Krispi Gurih</h3>
+<span class="text-primary font-black">Rp 75.000</span>
+</div>
+<p class="text-gray-500 text-sm leading-relaxed">
+                        Belut pilihan yang dibumbui ringan dan digoreng cepat hingga garing. Tinggi kalsium dan nutrisi, tetap renyah tahan lama.
+                    </p>
+<div class="bg-[#f4f3f0]/50 dark:bg-[#3d3624]/30 p-3 rounded-lg mt-2">
+<p class="text-[10px] uppercase font-bold text-primary mb-1 tracking-wider">Saran Penyajian</p>
+<p class="text-xs text-gray-500 italic leading-snug">Topping protein sempurna untuk bubur atau dinikmati langsung sebagai camilan sehat.</p>
+</div>
+<div class="flex items-center gap-2 mt-2">
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+<span class="material-symbols-outlined text-sm fill-1">star</span>
+</div>
+<span class="text-xs text-gray-400">(210 ulasan)</span>
+</div>
+<button class="mt-4 w-full py-3 bg-[#f4f3f0] dark:bg-[#3d3624] rounded-lg font-bold group-hover:bg-primary group-hover:text-[#181611] transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-xl">shopping_bag</span> Tambah ke Keranjang
+                    </button>
+</div>
+</div>
+</section>
+<section class="px-4 py-20">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold">Testimoni Pelanggan</h2>
+<p class="text-gray-500 mt-2">Suara dari komunitas pecinta kuliner kami</p>
+<div class="w-16 h-1 bg-primary mx-auto mt-4 rounded-full"></div>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-[#2c2616] p-8 rounded-2xl shadow-sm border border-[#e6e3db] dark:border-[#3d3624]">
+<div class="flex gap-1 text-primary mb-4">
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+</div>
+<p class="italic text-gray-600 dark:text-gray-300 mb-6">"Rendang Belutnya luar biasa! Bumbunya meresap sampai ke dalam dan teksturnya sangat lembut. Wajib dicoba bagi pecinta makanan Indonesia."</p>
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-full bg-cover" data-alt="Customer avatar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBx45osvM6T7L9cuTZp9cAqbzVXLQy6aiv4KVwJgnI07XiEWfFG7QUSLm21ZrUhmo7SVuIj7aEPeEeIXQ_VekmIFTUNRCk-fjSXByytA6qgqBnN4QPKxvwIOwYG477-hhWnxLxB4itxjweFHJKWnXLF7aetWST6dIEJKOMxfO0QWt8HPDK5aQNLuspfoBJvB6hBLC8mfgCdfbn1DG0a3ahB9HJP81DdHutZwKsECVkLxejb295sxYGT4PrDXkB0EcFdosL7l8LeTwoB')"></div>
+<div>
+<h4 class="font-bold">Andini Putri</h4>
+<p class="text-xs text-gray-500">Pecinta Kuliner, Jakarta</p>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-[#2c2616] p-8 rounded-2xl shadow-sm border border-[#e6e3db] dark:border-[#3d3624]">
+<div class="flex gap-1 text-primary mb-4">
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+</div>
+<p class="italic text-gray-600 dark:text-gray-300 mb-6">"Kemasan premiumnya sangat cocok untuk dijadikan hantaran keluarga. Sambalnya pedas nendang tapi tetap gurih. Pasti pesan lagi!"</p>
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-full bg-cover" data-alt="Customer avatar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCWkHVFQD-LWlhv_cSGUVuErVSGXj3Shcm0SpZUY4tFIuLAnUBujKtay8s46p5qUjWKQbtwEHcfm2i6ggNgjM1g7a23SBHsQo4Fmzu3BXDcsgfEjCpFmQQKPU8CtNxvPZ-jcOSUwYLUrm58BJytbUudnJLD-IR0L_pyq3ZNeraaQ-UD3lpAcZfNLaBivZlhBuXnMG8BOULKUqHvs-XJ3msB5rB-RaoubEN0n-6r8USXAcisco1O2HdE68CYTkp_avkc__1BzH49bLsA')"></div>
+<div>
+<h4 class="font-bold">Budi Santoso</h4>
+<p class="text-xs text-gray-500">Manager Korporat, Bandung</p>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-[#2c2616] p-8 rounded-2xl shadow-sm border border-[#e6e3db] dark:border-[#3d3624] hidden lg:block">
+<div class="flex gap-1 text-primary mb-4">
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+<span class="material-symbols-outlined fill-1 text-sm">star</span>
+</div>
+<p class="italic text-gray-600 dark:text-gray-300 mb-6">"Anak-anak saya sangat suka Belut Krispinya. Camilan sehat yang benar-benar mereka nikmati. Standar kebersihan dan pengemasannya jempolan."</p>
+<div class="flex items-center gap-4">
+<div class="size-12 rounded-full bg-cover" data-alt="Customer avatar" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA-sgGdaUKW2PttmBwnBnRi1uYaoDG4QwuaJSzXAJQ8LlM3mKW8Cgmd53sK7NAoL0aw5SnqkXPh509neVJ7NWhHLoMn4i8qqzCM6D381MSd4tnQ6QwWms6QcEUaqNvyLnwQKtz8k9o8fj7AwubYjVblPeJRhOD-Mk69TR8zdAET-6Q07Vy26CTejIrJzdTpNOq6Iv63m77WadEIps7pr4oxabOu_eIXEaNTdA_hAcr6COKmFoMCyUSgc5IW8X_A14dQPWRG60VGmbil')"></div>
+<div>
+<h4 class="font-bold">Siska Wijaya</h4>
+<p class="text-xs text-gray-500">Wirausaha, Surabaya</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="px-4 py-12">
+<div class="bg-primary rounded-[2rem] p-10 md:p-20 text-center flex flex-col items-center gap-8 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+<svg height="100%" width="100%" xmlns="http://www.w3.org/2000/svg">
+<defs><pattern height="40" id="grid" patternUnits="userSpaceOnUse" width="40"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="black" stroke-width="1"></path></pattern></defs>
+<rect fill="url(#grid)" height="100%" width="100%"></rect>
+</svg>
+</div>
+<h2 class="text-4xl md:text-5xl font-black text-[#181611] leading-tight max-w-2xl">Siap Menghadirkan Kelezatan Dapoer-CJ di Meja Makan Anda?</h2>
+<p class="text-[#181611] text-lg font-medium opacity-80 max-w-xl">Penawaran Eksklusif: Beli 2 pack Rendang Belut dan dapatkan gratis 1 pack Sambal Belut khusus minggu ini!</p>
+<div class="flex flex-col sm:flex-row gap-4 w-full justify-center">
+<button class="bg-[#181611] text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-black transition-all">Pesan Sekarang</button>
+<button class="bg-white text-[#181611] px-10 py-4 rounded-xl font-bold text-lg hover:shadow-lg transition-all">Hubungi Admin</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-white dark:bg-[#1a160d] py-12 px-4 border-t border-[#e6e3db] dark:border-[#3d3624]">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<div class="size-8 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+</svg>
+</div>
+<h2 class="text-xl font-bold">Dapoer-CJ</h2>
+</div>
+<p class="text-sm text-gray-500 leading-relaxed">Menyediakan kelezatan belut premium dan kebutuhan sembako berkualitas dengan resep tradisional yang terjaga turun-temurun.</p>
+<div class="flex gap-4">
+<a class="size-10 bg-[#f4f3f0] dark:bg-[#3d3624] rounded-full flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<img alt="Instagram" class="size-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZH1Ru-Vp_bbO_TZPlHmx1t7WMNrbQUueFf8FRKrsCG5bRaN2T-EdGX6-_LbXOu0ppOdxAUWRl-jbry6pGnfOvsh08vHrDiY7q1vTif1YY79OX1Fjfagx2ayBj6H-4kf3tktnrIc1p3-EXfpf4se7tITptX7XYirHh4M9MUrtZLGH3ulfYdNpjN3KLzZ4fzoG2YMl-KI-9ZKPnu_rXxupuySpEaO_4-qhZS9DLgDSIdJ3wYguSwIjGinCQxVt9V5iO6Uwi6fV1k7zQ"/>
+</a>
+<a class="size-10 bg-[#f4f3f0] dark:bg-[#3d3624] rounded-full flex items-center justify-center hover:bg-primary transition-colors" href="#">
+<img alt="WhatsApp" class="size-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-LHk20WUD8FPhcY9Uo1O9ajHGdbMZRNLHrKbnjQx149TVujlEIbyQTbuapJWxXg6hJypMQA6qJa3ZCpbk26H2-KnG7k6J8hH1RBvi9s38BaLStn0C5Aw8wHYAPk4ilT_Gn2LCytGCfUzDT8YMdHP8U9jgAR_QfIlL0LGMbDt929KRXKWNVBpXL7g5_bgt4VlkJosgGRnJcej6aOW6RE_Ty4CzU_S-sEtnvHuPKNZCoNAhYrxZEmIva1tYFLJMCClc5aeskYbA2dom"/>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6 text-primary">Spesialis Populer</h4>
+<ul class="flex flex-col gap-4 text-sm text-gray-500">
+<li><a class="hover:text-primary transition-colors" href="#">Rendang Belut Paru</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Sambal Belut Pedas</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Belut Krispi Gurih</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Paket Sembako Premium</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Bantuan</h4>
+<ul class="flex flex-col gap-4 text-sm text-gray-500">
+<li><a class="hover:text-primary transition-colors" href="#">Panduan Pemesanan</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Kebijakan Pengiriman</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Syarat &amp; Ketentuan</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Lokasi Butik</h4>
+<p class="text-sm text-gray-500 leading-relaxed mb-4">Jl. Raya Tradisi No. 123, <br/>Jakarta Selatan, Indonesia</p>
+<div class="w-full h-32 rounded-lg overflow-hidden bg-gray-100 grayscale hover:grayscale-0 transition-all duration-500">
+<img alt="Map location of Dapoer-CJ" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdsm_pshoGM6eqx9VCwhUIrh4vexBwA8MsGVoGxDB0i6tSwextqiYk2vvIuIKNyKCx9D6ytJdl9MY3mV0fkzvk06kUZ6-ksXAQwFfPpDkjsIg9alBdxCUCjwUYP8ZFnjfJw504WtG8E3nZtke3nFKde_kQ27M1ELaBwxOZ8AMSiAY61wtkQuwmX53OmEiftueCynprjFUlAFyGtH1WErHkjuIKjiYD3tMphDI4OI6IhBe5Kyh_wdcmRYT-wd3yJ1liKQahQXSSuC3h"/>
+</div>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto mt-12 pt-8 border-t border-[#e6e3db] dark:border-[#3d3624] flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-gray-400">© 2024 Dapoer-CJ. Hak Cipta Dilindungi.</p>
+<div class="flex gap-6 text-xs text-gray-400">
+<a href="#">Kebijakan Privasi</a>
+<a href="#">Ketentuan Layanan</a>
+</div>
+</div>
+</footer>
+<div class="fixed bottom-6 right-6 md:hidden z-50">
+<button class="bg-primary text-[#181611] size-16 rounded-full shadow-2xl flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">shopping_cart</span>
+</button>
+</div>
+
+</body></html>

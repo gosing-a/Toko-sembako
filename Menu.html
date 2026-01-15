@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dapoer-CJ | Sembako Premium &amp; Olahan Belut Spesial</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ecb613",
+                        "gold-dark": "#c69811",
+                        "background-light": "#ffffff",
+                        "background-dark": "#1a160c",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        .gold-texture {
+            background-image: radial-gradient(circle at 2px 2px, rgba(236, 182, 19, 0.08) 1.5px, transparent 0);
+            background-size: 32px 32px;
+        }
+        .product-card {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 30px -10px rgba(236, 182, 19, 0.25);
+            border-color: #ecb613;
+        }
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#181611] dark:text-[#f4f3f0]">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden gold-texture">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 bg-white/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-[#f4f3f0] dark:border-[#3a3528] px-4 lg:px-40 py-3">
+<div class="flex items-center justify-between whitespace-nowrap max-w-[1200px] mx-auto">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-[#181611] dark:text-primary">
+<div class="size-8">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-[#181611] dark:text-[#f4f3f0] text-xl font-extrabold leading-tight tracking-[-0.015em]">Dapoer-CJ</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-9">
+<a class="text-[#181611] dark:text-[#f4f3f0] text-sm font-semibold hover:text-primary transition-colors" href="#">Beranda</a>
+<a class="text-primary text-sm font-bold border-b-2 border-primary pb-1" href="#">Menu Produk</a>
+<a class="text-[#181611] dark:text-[#f4f3f0] text-sm font-semibold hover:text-primary transition-colors" href="#">Galeri</a>
+<a class="text-[#181611] dark:text-[#f4f3f0] text-sm font-semibold hover:text-primary transition-colors" href="#">Tentang Kami</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<label class="hidden sm:flex flex-col min-w-40 !h-10 max-w-64">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full overflow-hidden border border-[#e6e3db] dark:border-[#3a3528]">
+<div class="text-[#897f61] flex bg-white dark:bg-[#2d281a] items-center justify-center pl-4">
+<span class="material-symbols-outlined text-lg">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 border-none bg-white dark:bg-[#2d281a] focus:ring-0 h-full placeholder:text-[#897f61] px-4 pl-2 text-sm font-normal" placeholder="Cari menu..." value=""/>
+</div>
+</label>
+<button class="flex min-w-[40px] md:min-w-[140px] items-center justify-center rounded-lg h-10 px-4 bg-primary text-[#181611] text-sm font-bold shadow-sm hover:bg-gold-dark transition-all">
+<span class="material-symbols-outlined mr-2 hidden md:inline">chat</span>
+<span class="truncate">Pesan via WA</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-1 max-w-[1200px] mx-auto w-full px-4 lg:px-40 py-8">
+<div class="mb-10">
+<div class="@container">
+<div class="bg-cover bg-center flex flex-col justify-end overflow-hidden rounded-2xl min-h-[360px] shadow-xl border-2 border-primary/20 relative" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.2) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBovEsmeE1f2dCx-EMYzZaHbcEmUy1wkrLz-7eGBLHcROXsS65iFatl99Hl99GxBnQI19QZY01Wa_maxfTWUngHraRVCTFxMeMrVveT5SzMdBzwb4KxZOaG8CE4N73GW5tzlTseys2ZAf-G-45vTPv7Md0pPcg0ko4F5YBEmZbvs6Ri51EMQ3Xn8Q60yYJ6fdtF3BbW1p07cqiWFzRvG7UR9w76m3bK_r0GgcQVdOPnWT6bp9iOaEknaX1r2oEiBxqkaCJvji9Saq-r");'>
+<div class="p-8 md:p-12 space-y-4 relative z-10">
+<span class="bg-primary text-[#181611] px-4 py-1.5 rounded-full text-xs font-black uppercase tracking-widest shadow-lg">Pilihan Premium Kurasi</span>
+<h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight">Menu Produk Interaktif</h1>
+<p class="text-white/90 text-lg max-w-2xl font-medium leading-relaxed">Temukan koleksi kebutuhan pokok berkualitas dan hidangan belut legendaris, disiapkan dengan cinta dan bahan-bahan premium.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="pb-10 sticky top-[64px] z-40 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm pt-4">
+<div class="flex border-b border-[#e6e3db] dark:border-[#3a3528] px-2 gap-12 overflow-x-auto no-scrollbar justify-center">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-primary text-[#181611] dark:text-[#f4f3f0] pb-4 pt-2 transition-all whitespace-nowrap group" href="#sembako">
+<p class="text-sm font-black tracking-widest uppercase flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">eco</span> Sembako Premium
+                        </p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#897f61] pb-4 pt-2 hover:text-primary transition-all whitespace-nowrap group" href="#olahan-belut">
+<p class="text-sm font-black tracking-widest uppercase flex items-center gap-2">
+<span class="material-symbols-outlined">set_meal</span> Olahan Belut Spesial
+                        </p>
+</a>
+</div>
+</div>
+<section class="mb-20 scroll-mt-32" id="sembako">
+<div class="flex flex-col md:flex-row md:items-end justify-between px-4 pb-8 gap-4">
+<div class="space-y-1">
+<h2 class="text-[#181611] dark:text-[#f4f3f0] text-3xl font-black tracking-tight">Sembako Premium</h2>
+<p class="text-[#897f61] text-sm font-medium italic">Kebutuhan pokok berkualitas tinggi untuk dapur rumah Anda</p>
+</div>
+<span class="text-primary font-bold text-xs bg-primary/10 px-4 py-2 rounded-full border border-primary/20 self-start md:self-auto">Kualitas Pilihan</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-4">
+<div class="product-card flex flex-col bg-white dark:bg-[#2d281a] rounded-2xl overflow-hidden border-2 border-transparent shadow-sm">
+<div class="relative overflow-hidden aspect-square">
+<div class="w-full h-full bg-cover bg-center hover:scale-110 transition-transform duration-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA9s4dLFSsF6Ql5AjxZ7D8xdYwGOssf7_K0OBwECqlFHySQrILrsTD6oeEbxUzibnVB0Otw-g7vDgzsD9kRffhiBSSCGoLqd3w885E-En07vYpo7pLiOgothwhRZhVbdBfuZpjip5PeOlDub5AhXxgE-y1YNe8nekx3G6p_jx0dsXiW7VzxidP5RxtY5esG43Y6U5Z_zab-5iEw6zNy4Q1QRD6fkwFZBguZdIS5HVCYX0CthAVF4fpfw34DdKjE3WRd3MGL4LK8cZWJ");'></div>
+<div class="absolute top-3 left-3 bg-white/90 backdrop-blur px-2 py-1 rounded text-[10px] font-bold text-[#181611] uppercase tracking-tighter shadow-sm">Pandan Wangi</div>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<h3 class="text-[#181611] dark:text-[#f4f3f0] text-lg font-bold leading-tight mb-1">Beras Aroma Melati 5kg</h3>
+<p class="text-[#897f61] text-xs font-medium mb-4">Grade AAA • Panen Lokal 2024</p>
+<div class="mt-auto pt-5 flex items-center justify-between border-t border-[#f4f3f0] dark:border-[#3a3528]">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase font-bold text-[#897f61] tracking-widest">Harga</span>
+<p class="text-primary text-xl font-black tracking-tight">Rp 85.000</p>
+</div>
+<button class="bg-[#25D366] hover:brightness-110 text-white px-3 py-2 rounded-xl text-[10px] font-black transition-all flex items-center gap-1 shadow-sm uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">chat</span> WA
+                                </button>
+</div>
+</div>
+</div>
+<div class="product-card flex flex-col bg-white dark:bg-[#2d281a] rounded-2xl overflow-hidden border-2 border-transparent shadow-sm">
+<div class="relative overflow-hidden aspect-square">
+<div class="w-full h-full bg-cover bg-center hover:scale-110 transition-transform duration-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDrycsPC4oZQVwcSo1ZY36Y4h_VNSoexGiLkEyGv9nOBrNlR4x0c0My3ko-F4ujfXN2N4xQY35la6JyK7UzVKplWG_cTqQtgNvybJLEffQ-n00o7ZuuvbkmvIb32OWAYjzMz5yhTJJx2WcbC6-hxHdi3Okp4nYpiG9q-J2DcEGILampukt6ZVMNhj73dXEuGpl-hy_0L6gpTUb2wnfd7cC_8F6to3UhIve05yUwvXF9beNdQVdRILTtM-PauT-8SVnq-Zsecyb0WTPU");'></div>
+<div class="absolute top-3 left-3 bg-white/90 backdrop-blur px-2 py-1 rounded text-[10px] font-bold text-[#181611] uppercase tracking-tighter shadow-sm">Kelapa Murni</div>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<h3 class="text-[#181611] dark:text-[#f4f3f0] text-lg font-bold leading-tight mb-1">Minyak Kelapa Premium</h3>
+<p class="text-[#897f61] text-xs font-medium mb-4">Cold-Pressed • Bebas Kolesterol</p>
+<div class="mt-auto pt-5 flex items-center justify-between border-t border-[#f4f3f0] dark:border-[#3a3528]">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase font-bold text-[#897f61] tracking-widest">Harga</span>
+<p class="text-primary text-xl font-black tracking-tight">Rp 45.000</p>
+</div>
+<button class="bg-[#25D366] hover:brightness-110 text-white px-3 py-2 rounded-xl text-[10px] font-black transition-all flex items-center gap-1 shadow-sm uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">chat</span> WA
+                                </button>
+</div>
+</div>
+</div>
+<div class="product-card flex flex-col bg-white dark:bg-[#2d281a] rounded-2xl overflow-hidden border-2 border-transparent shadow-sm">
+<div class="relative overflow-hidden aspect-square">
+<div class="w-full h-full bg-cover bg-center hover:scale-110 transition-transform duration-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB-sCyfwUfL31sYxd2wSslLKgzl7JzjqkS6mpwtZJSApMnyTOKKNPq9WS_o97-HQutfU7gUpgwP5WEVfTzLC4hLHzt5S7t6LF9gdIM2BjqEOThL41MO90CIbxVh5Yqsyb0khMZcbCFw0FW5akkgQ9GHyqUr0IPBtCh4JwgvbXW5n8z5waRMYdj50VgfMZsr5hhAPVxLZyrpOfIti4rGTT0Q0lXG6rAGJo3YBMygG3oanBzZXgmlbzT_jIQUFOak13KkawkDpslmhnsD");'></div>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<h3 class="text-[#181611] dark:text-[#f4f3f0] text-lg font-bold leading-tight mb-1">Gula Pasir Kristal</h3>
+<p class="text-[#897f61] text-xs font-medium mb-4">1kg • Gula Tebu Murni Pilihan</p>
+<div class="mt-auto pt-5 flex items-center justify-between border-t border-[#f4f3f0] dark:border-[#3a3528]">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase font-bold text-[#897f61] tracking-widest">Harga</span>
+<p class="text-primary text-xl font-black tracking-tight">Rp 18.000</p>
+</div>
+<button class="bg-[#25D366] hover:brightness-110 text-white px-3 py-2 rounded-xl text-[10px] font-black transition-all flex items-center gap-1 shadow-sm uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">chat</span> WA
+                                </button>
+</div>
+</div>
+</div>
+<div class="product-card flex flex-col bg-white dark:bg-[#2d281a] rounded-2xl overflow-hidden border-2 border-transparent shadow-sm">
+<div class="relative overflow-hidden aspect-square">
+<div class="w-full h-full bg-cover bg-center hover:scale-110 transition-transform duration-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBNP_mmUkihk9ky6p4ak3dwjaEThtQ2gdbmqgQfxxQN0YC8XmUXTDbeKtm3p-V6srvUOafNoSA4h8Ej5ia5QWTHcmMIeKLeZMd0YZhCWH8XRdUfDbMni83DEcS3RFGzfcc_p61tNYkIHmJ-smpCUy3A_sy5hh5abr9ziG5S5RqiiLSgdY9O1rueeNqO1V0Qskra-arN2x4TxHIjCvvvpZ_mRTzC6oiJ0BRhsRY_LYSEGkMhhYVHiWIPodUUtxOaSoNHqA6HVLoyG9EP");'></div>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<h3 class="text-[#181611] dark:text-[#f4f3f0] text-lg font-bold leading-tight mb-1">Telur Ayam Segar</h3>
+<p class="text-[#897f61] text-xs font-medium mb-4">Isi 10 Butir • Kaya Omega-3</p>
+<div class="mt-auto pt-5 flex items-center justify-between border-t border-[#f4f3f0] dark:border-[#3a3528]">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase font-bold text-[#897f61] tracking-widest">Harga</span>
+<p class="text-primary text-xl font-black tracking-tight">Rp 28.000</p>
+</div>
+<button class="bg-[#25D366] hover:brightness-110 text-white px-3 py-2 rounded-xl text-[10px] font-black transition-all flex items-center gap-1 shadow-sm uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">chat</span> WA
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="mb-20 scroll-mt-32" id="olahan-belut">
+<div class="flex flex-col md:flex-row md:items-end justify-between px-4 pb-8 gap-4">
+<div class="space-y-1">
+<h2 class="text-[#181611] dark:text-[#f4f3f0] text-3xl font-black tracking-tight">Olahan Belut Spesial</h2>
+<p class="text-[#897f61] text-sm font-medium italic">Hidangan legendaris khas kami, dibuat dengan resep tradisional</p>
+</div>
+<span class="text-white font-black text-xs bg-[#181611] dark:bg-primary dark:text-[#181611] px-4 py-2 rounded-full shadow-lg self-start md:self-auto uppercase tracking-widest">Koleksi Signature</span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-4">
+<div class="product-card flex flex-col bg-white dark:bg-[#2d281a] rounded-2xl overflow-hidden border-2 border-primary/40 shadow-md ring-4 ring-primary/5">
+<div class="relative overflow-hidden aspect-square">
+<div class="w-full h-full bg-cover bg-center hover:scale-110 transition-transform duration-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCfTJH1BCDdJkVHVsnL74768SivfAud5CiLeIfosRZbqiXT4awSdPVSzrPY8sHhzkCNwWTmQe4ptK03zJVp69tXtrOVQjvfYmFtZB2JDCbZoGcY5J2-L5e7FAorC_7lLQzNTWFmlo7Bh-OhD9hdMaQLlRubCjlitgHoUlXgrhDT_h8u0nu4tKzeOnkq4qABnCG9cIEjdwjew4sLPZFEvldK5DHB_MpWfsdhsGAQW3eiMXUlVTT2pnSB1vc7g8Vcja-llJBfHLYtl1sU");'></div>
+<div class="absolute top-4 right-4 flex flex-col items-end gap-2">
+<span class="bg-primary text-[#181611] px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest shadow-lg">Terlaris</span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<h3 class="text-[#181611] dark:text-[#f4f3f0] text-lg font-black leading-tight mb-1">Keripik Belut Gurih</h3>
+<p class="text-[#897f61] text-xs font-medium mb-4">250g • Irisan Manual &amp; Goreng Dua Kali</p>
+<div class="mt-auto pt-5 flex items-center justify-between border-t border-primary/20">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase font-bold text-[#897f61] tracking-widest">Harga</span>
+<p class="text-primary text-xl font-black tracking-tight">Rp 55.000</p>
+</div>
+<button class="bg-[#25D366] hover:brightness-110 text-white px-4 py-2 rounded-xl text-xs font-black transition-all flex items-center gap-2 shadow-sm uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">chat</span> WA
+                                </button>
+</div>
+</div>
+</div>
+<div class="product-card flex flex-col bg-white dark:bg-[#2d281a] rounded-2xl overflow-hidden border-2 border-primary/40 shadow-md ring-4 ring-primary/5">
+<div class="relative overflow-hidden aspect-square">
+<div class="w-full h-full bg-cover bg-center hover:scale-110 transition-transform duration-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDS-xABSWedjJNpju1KrICSy-4QSOPe0I3fju4pN2yLtL6wVmkuvblH51J_p9LoMq3EMj_oZ1a__v2Iv8ogF6EpM3OCqXoYWbNau_A44RCHdgBKS-6HQx21tcjfc9OoUu-1RiT7B6c-kLM5YRIJKLZIWfUap8QnUn1T7-LHZ9K3nb1BEFwr2G4YNxqKYCs5IhG585eZAobMFqJhJCJVLUGn8dSvNSzHUlNnzrI3jllzAkDMvwynP1QDzuMMV1PMriupdqmpKlRXmLh0");'></div>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<h3 class="text-[#181611] dark:text-[#f4f3f0] text-lg font-black leading-tight mb-1">Sambal Belut Premium</h3>
+<p class="text-[#897f61] text-xs font-medium mb-4">Level Pedas: 3/5 • Jar Kaca 150g</p>
+<div class="mt-auto pt-5 flex items-center justify-between border-t border-primary/20">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase font-bold text-[#897f61] tracking-widest">Harga</span>
+<p class="text-primary text-xl font-black tracking-tight">Rp 38.000</p>
+</div>
+<button class="bg-[#25D366] hover:brightness-110 text-white px-4 py-2 rounded-xl text-xs font-black transition-all flex items-center gap-2 shadow-sm uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">chat</span> WA
+                                </button>
+</div>
+</div>
+</div>
+<div class="product-card flex flex-col bg-white dark:bg-[#2d281a] rounded-2xl overflow-hidden border-2 border-primary/40 shadow-md ring-4 ring-primary/5">
+<div class="relative overflow-hidden aspect-square">
+<div class="w-full h-full bg-cover bg-center hover:scale-110 transition-transform duration-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAW0T_Mlt8vCg8LSXt9tEmE755QYZK4a53G-7PdqgUBB30rpyz9QVoJdOBZRd0GSm4XgJg-8heeNUQa_RiCnzzGoDKdV2grQQ1FH7rDozAH-kUN8zy5pSMfUJpQI8TbLDJONZ8ImyWtKiJRoy6gCsH3t7kI1vlmqRYaqfBRmUDrNBQJBcqSf_6EVeFVD17npbSTU5EmWgSXOrCDP2WW9Pi4lGX8QVmmHiOZTdQcFNwyNU5980GOG3GlDmBnTqjdAMNePEeqjDFha_GB");'></div>
+<div class="absolute bottom-3 left-3 bg-primary/90 backdrop-blur px-2 py-1 rounded text-[10px] font-bold text-[#181611] uppercase tracking-tighter">Asap Kayu</div>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<h3 class="text-[#181611] dark:text-[#f4f3f0] text-lg font-black leading-tight mb-1">Belut Asap Wangi</h3>
+<p class="text-[#897f61] text-xs font-medium mb-4">200g • Fillet Asap Lambat Aromatik</p>
+<div class="mt-auto pt-5 flex items-center justify-between border-t border-primary/20">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase font-bold text-[#897f61] tracking-widest">Harga</span>
+<p class="text-primary text-xl font-black tracking-tight">Rp 75.000</p>
+</div>
+<button class="bg-[#25D366] hover:brightness-110 text-white px-4 py-2 rounded-xl text-xs font-black transition-all flex items-center gap-2 shadow-sm uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">chat</span> WA
+                                </button>
+</div>
+</div>
+</div>
+<div class="product-card flex flex-col bg-white dark:bg-[#2d281a] rounded-2xl overflow-hidden border-2 border-primary/40 shadow-md ring-4 ring-primary/5">
+<div class="relative overflow-hidden aspect-square">
+<div class="w-full h-full bg-cover bg-center hover:scale-110 transition-transform duration-700" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAzKp631bejVfrAxxTvnPmf2rbvezz74vmKKFbdp9EECTQCNMkob3su5d8cp_vddAJidiRj8OsYQGO0sCr4-2swvC8HXOHfFsBfl-K0q3s55ZBfcqhFNfwNYwLMnNjxJL37lOMLQrtk4L-o0WXiXJeAq1-GQBnnaysy8MaveVD3WRETzJBc11Fdi4nOPJUOpMHXeXEhpr7LpI41wOj4Nc4OwYQYwBHw9fNe-rVKRMXJZsWYBClpN-2Z8SfgtwoN-XIYN19EvfSyNTWj");'></div>
+</div>
+<div class="p-6 flex flex-col flex-1">
+<h3 class="text-[#181611] dark:text-[#f4f3f0] text-lg font-black leading-tight mb-1">Pepes Belut Kemangi</h3>
+<p class="text-[#897f61] text-xs font-medium mb-4">Siap Saji • Bumbu Rempah Otentik</p>
+<div class="mt-auto pt-5 flex items-center justify-between border-t border-primary/20">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase font-bold text-[#897f61] tracking-widest">Harga</span>
+<p class="text-primary text-xl font-black tracking-tight">Rp 42.000</p>
+</div>
+<button class="bg-[#25D366] hover:brightness-110 text-white px-4 py-2 rounded-xl text-xs font-black transition-all flex items-center gap-2 shadow-sm uppercase tracking-tighter">
+<span class="material-symbols-outlined text-sm">chat</span> WA
+                                </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="mt-16 pt-16 pb-12 border-t border-[#e6e3db] dark:border-[#3a3528]">
+<div class="grid md:grid-cols-2 gap-16 items-start">
+<div class="space-y-6">
+<div class="flex items-center gap-3 text-[#181611] dark:text-[#f4f3f0]">
+<span class="material-symbols-outlined text-4xl text-primary">restaurant</span>
+<h3 class="text-3xl font-black tracking-tighter">Dapoer-CJ</h3>
+</div>
+<p class="text-[#897f61] max-w-md leading-relaxed">Kualitas premium sembako dan olahan belut otentik dikirim langsung dari dapur kami ke rumah Anda. Rasakan kemudahan kemewahan modern dengan sentuhan rumahan.</p>
+<div class="flex gap-4">
+<a class="size-12 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-[#181611] transition-all" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="size-12 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-[#181611] transition-all" href="#"><span class="material-symbols-outlined">alternate_email</span></a>
+<a class="size-12 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-[#181611] transition-all" href="#"><span class="material-symbols-outlined">call</span></a>
+</div>
+</div>
+<div class="bg-[#fcfbf7] dark:bg-[#2d281a] p-10 rounded-3xl border border-primary/20 shadow-inner relative overflow-hidden">
+<div class="absolute -top-10 -right-10 size-40 bg-primary/5 rounded-full"></div>
+<h4 class="text-xl font-black mb-3">Ingin Jadi Reseller?</h4>
+<p class="text-[#897f61] text-sm mb-8 leading-relaxed">Bergabunglah dengan keluarga kami dan nikmati harga grosir khusus untuk Olahan Belut Spesial. Cocok untuk bisnis atau wirausaha.</p>
+<button class="w-full bg-[#181611] dark:bg-primary text-white dark:text-[#181611] font-black py-4 rounded-2xl transition-all hover:scale-[1.02] shadow-xl uppercase tracking-widest text-sm">
+                            Hubungi Admin Reseller
+                        </button>
+</div>
+</div>
+<div class="mt-20 flex flex-col md:flex-row items-center justify-between gap-4 border-t border-[#f4f3f0] dark:border-[#3a3528] pt-8">
+<p class="text-[#897f61] text-xs font-bold tracking-widest uppercase">© 2024 Dapoer-CJ Indonesia. Hak cipta dilindungi undang-undang.</p>
+<div class="flex gap-8">
+<a class="text-[#897f61] text-xs font-bold hover:text-primary uppercase tracking-widest" href="#">Kebijakan Privasi</a>
+<a class="text-[#897f61] text-xs font-bold hover:text-primary uppercase tracking-widest" href="#">Syarat &amp; Ketentuan</a>
+</div>
+</div>
+</footer>
+</main>
+</div>
+</div>
+
+</body></html>

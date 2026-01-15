@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html class="light" lang="id"><head>
+
+<html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Dapoer C-J - Kebutuhan Dapur Berkualitas</title>
+<title>Dapoer-CJ | Authentic Eel &amp; Premium Essentials</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
         tailwind.config = {
@@ -12,276 +13,281 @@
             theme: {
                 extend: {
                     colors: {
-                        "primary": "#1a365d",
-                        "accent": "#c5a059",
-                        "background-light": "#fdfbf7",
-                        "background-dark": "#0d121b",
-                        "cream-soft": "#f5f1e8",
-                        "navy-deep": "#0d121b"
+                        "primary": "#ecb613",
+                        "background-light": "#f8f8f6",
+                        "background-dark": "#221d10",
                     },
                     fontFamily: {
-                        "display": ["Playfair Display", "serif"],
-                        "body": ["Work Sans", "sans-serif"]
+                        "display": ["Manrope", "sans-serif"]
                     },
-                    animation: {
-                        'fade-in-up': 'fadeInUp 1s ease-out forwards',
-                        'fade-in': 'fadeIn 1.2s ease-out forwards',
-                        'slide-up': 'slideUp 0.8s ease-out forwards',
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
                     },
-                    keyframes: {
-                        fadeInUp: {
-                            '0%': { opacity: '0', transform: 'translateY(20px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        },
-                        fadeIn: {
-                            '0%': { opacity: '0' },
-                            '100%': { opacity: '1' },
-                        },
-                        slideUp: {
-                            '0%': { opacity: '0', transform: 'translateY(30px)' },
-                            '100%': { opacity: '1', transform: 'translateY(0)' },
-                        }
-                    }
                 },
             },
         }
     </script>
-<style type="text/tailwindcss">
-        body {
-            font-family: "Work Sans", sans-serif;
-            scroll-behavior: smooth;
-        }
-        h1, h2, h3, .font-serif {
-            font-family: "Playfair Display", serif;
-        }
+<style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }.reveal {
-            view-timeline-name: --revealing-image;
-            view-timeline-axis: block;
-            animation-range: entry 25% cover 50%;
-            animation-fill-mode: both;
-            animation-name: slideUp;
-            animation-timeline: --revealing-image;
         }
-        .stagger-reveal {
-            view-timeline-name: --stagger;
-            view-timeline-axis: block;
-            animation-range: entry 10% cover 30%;
-            animation-fill-mode: both;
-            animation-name: fadeInUp;
-            animation-timeline: --stagger;
-        }@keyframes pulse-subtle {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.05); }
-        }
-        .animate-pulse-subtle {
-            animation: pulse-subtle 3s infinite ease-in-out;
+        body {
+            font-family: 'Manrope', sans-serif;
         }
     </style>
-<style>
-    body {
-      min-height: max(884px, 100dvh);
-    }
-  </style>
-  </head>
-<body class="bg-background-light dark:bg-background-dark text-navy-deep dark:text-gray-100">
-<nav class="sticky top-0 z-50 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-accent/20">
-<div class="max-w-screen-xl mx-auto flex items-center justify-between p-4">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined text-primary text-3xl">storefront</span>
-<h2 class="text-navy-deep dark:text-white text-xl font-bold tracking-tight font-serif">Dapoer C-J</h2>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#181611] dark:text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Top Navigation Bar -->
+<header class="sticky top-0 z-50 bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md border-b border-solid border-[#e6e3db] dark:border-[#3d3625] px-6 lg:px-40 py-4">
+<div class="flex items-center justify-between whitespace-nowrap">
+<div class="flex items-center gap-4 text-[#181611] dark:text-primary">
+<div class="size-8">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
 </div>
-<div class="hidden md:flex gap-8">
-<a class="text-sm font-semibold hover:text-accent transition-colors" href="#tentang">Tentang Kami</a>
-<a class="text-sm font-semibold hover:text-accent transition-colors" href="#katalog">Katalog</a>
-<a class="text-sm font-semibold hover:text-accent transition-colors" href="#kontak">Kontak</a>
+<h2 class="text-lg font-bold leading-tight tracking-[-0.015em]">Dapoer-CJ</h2>
 </div>
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-navy-deep dark:text-white md:hidden">menu</span>
-<button class="hidden md:block bg-primary text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-navy-deep transition-all shadow-md">
-                Pesan
-            </button>
-</div>
-</div>
+<div class="flex flex-1 justify-end gap-8">
+<nav class="hidden md:flex items-center gap-9">
+<a class="text-[#181611] dark:text-white text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-[#181611] dark:text-white text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Products</a>
+<a class="text-[#181611] dark:text-white text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Our Story</a>
+<a class="text-[#181611] dark:text-white text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contact</a>
 </nav>
-<header class="relative w-full overflow-hidden">
-<div class="p-4 md:p-8">
-<div class="relative flex min-h-[600px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-2xl items-center justify-center p-6 text-center shadow-2xl animate-fade-in" style='background-image: linear-gradient(rgba(19, 36, 60, 0.5), rgba(19, 36, 60, 0.7)), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCMjCN9KKORF_BO29i64Q9YM5bLrbegpQxJqk8IylT1ybIyIANJMgQ8GV0jEJsGRUTgVWn-95NiGfKU_zc-a7dmTMeBYQZL6R6bNyx4aVvtvO9FGV7wcfHQz9jZfJR1T3OqLj6wZD4s58o1q_JxiLzplsfby7W2VO62Zq9BWa36aWlr7pCX5gY3WmVMKLHdNkANszCHMRmBxPG8Z_UzhzRTCjkAdMY_pnuOATljbPHOYbC3nvGk4EDVqYjMySeFI5qOTjdbzbz9FwDE");'>
-<div class="max-w-2xl flex flex-col gap-6 animate-fade-in-up">
-<span class="text-accent font-semibold tracking-widest uppercase text-sm">Selamat Datang di Dapoer C-J</span>
-<h1 class="text-white text-4xl font-bold leading-tight md:text-6xl">
-                    Kebutuhan Dapur Lengkap &amp; Berkualitas
-                </h1>
-<p class="text-white/90 text-lg font-light max-w-lg mx-auto leading-relaxed">
-                    Menghadirkan kehangatan di setiap masakan dengan bahan sembako pilihan yang segar dan terpercaya.
-                </p>
-<div class="flex flex-col sm:flex-row gap-4 justify-center mt-4">
-<a class="flex min-w-[180px] cursor-pointer items-center justify-center rounded-full h-14 px-8 bg-accent text-white text-base font-bold shadow-lg hover:brightness-110 transition-all" href="#katalog">
-                        Eksplor Katalog
-                    </a>
-</div>
-</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-5 bg-primary text-[#181611] text-sm font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
+<span class="truncate">Order via WhatsApp</span>
+</button>
 </div>
 </div>
 </header>
-<section class="py-24 px-4 md:px-8 max-w-4xl mx-auto reveal" id="tentang">
-<div class="flex flex-col items-center text-center">
-<div class="size-16 rounded-full bg-cream-soft flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-accent text-4xl">favorite</span>
+<!-- Hero Section -->
+<main class="flex-1">
+<div class="px-6 lg:px-40 py-12 lg:py-20">
+<div class="max-w-[1280px] mx-auto">
+<div class="@container">
+<div class="flex flex-col gap-10 lg:flex-row lg:items-center">
+<div class="w-full lg:w-1/2 bg-center bg-no-repeat aspect-[4/3] lg:aspect-video bg-cover rounded-xl shadow-2xl overflow-hidden border-4 border-white dark:border-[#3d3625]" data-alt="high quality gourmet cooked eel dish on elegant plate" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDd0wgDSxFK80FnnduX6O7Dsf5qtmsWMnOE6qJIWQc3youSuzym_L4Acynx5lYoNWIEMXkWmdgVr05L6GB8-mm0MLGQWO1Sd8xAeWuhdrwapDHvJqQ4AVbyP5BnhBech5Z5EsE6EH9yQ_vQclWpjYkAunyz4HmWIiV4DfP9k_wmPW57EeHJrgU_fuuxxjg3ZjmirjD24Z4_Gb2-hUdaS0P2PNKD_YJTqjXaS9_nA7YPS672xS5SDNfrWwQKJzD2wJojGpKwvy_R837X");'></div>
+<div class="flex flex-col gap-6 lg:w-1/2 lg:pl-12">
+<div class="flex flex-col gap-4">
+<span class="text-primary font-bold tracking-widest text-sm uppercase">Welcome to Dapoer-CJ</span>
+<h1 class="text-[#181611] dark:text-white text-4xl lg:text-6xl font-black leading-tight tracking-[-0.033em]">
+                                            Authentic Flavors, <br/><span class="text-primary">Quality Essentials.</span>
+</h1>
+<p class="text-[#5c543d] dark:text-[#c4bfb0] text-lg font-normal leading-relaxed max-w-[540px]">
+                                            Experience the perfect blend of premium Sembako staples and gourmet eel-based specialties, crafted with a home-cooked heart.
+                                        </p>
 </div>
-<h2 class="text-navy-deep dark:text-white text-4xl font-bold mb-6">Tentang Kami</h2>
-<div class="w-20 h-1 bg-accent rounded-full mb-8"></div>
-<p class="text-gray-600 dark:text-gray-300 text-xl font-light leading-relaxed font-body">
-            Dapoer C-J berkomitmen menyediakan kebutuhan pokok rumah tangga dengan kualitas terbaik. Kami percaya bahwa kebahagiaan keluarga dimulai dari dapur yang lengkap dan nyaman. Dengan kurasi produk pilihan, kami memastikan setiap bahan yang Anda terima adalah yang terbaik untuk sajian istimewa di rumah.
-        </p>
-</div>
-</section>
-<section class="py-24 bg-cream-soft dark:bg-navy-deep/40 px-4 md:px-8" id="katalog">
-<div class="max-w-screen-xl mx-auto">
-<div class="flex flex-col items-center text-center mb-16 reveal">
-<h2 class="text-navy-deep dark:text-white text-4xl font-bold mb-4">Katalog Produk</h2>
-<p class="text-gray-500 dark:text-gray-400 max-w-md">Pilihan sembako premium yang dikurasi khusus untuk memenuhi kebutuhan harian keluarga Anda.</p>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-<div class="stagger-reveal bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm border border-accent/10 flex flex-col group hover:shadow-xl transition-all duration-300">
-<div class="aspect-[4/5] bg-gray-200 relative overflow-hidden">
-<img alt="Beras Premium" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAI80KxCm7ydFC8nCMb3XG4N6_9kmc5-vI8exZdIljm_ZmlSBEOKlON1WzpaXWMgRUpUF7umwDR0fLA0X1-HA83m4v9gdQvHXivhSDByqmE7-jLqPY29dMX61yv7571LALLDsIMQ-JOqjhU5cKl3tYMDgLtPQv7U0akNtz9EF5uEVHtI4-j88EQcKWw2aDp0QQD0DpOcHaHZNNtUhDzLJJqSf26Tl7dvzOmFKEWtRGv6wMTCPJ-uJP5XMtYUc_ElDnNbZrmhwfoFrAm"/>
-<div class="absolute top-4 right-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">Populer</div>
-</div>
-<div class="p-6 flex flex-col flex-1">
-<h3 class="text-navy-deep dark:text-white font-bold text-lg mb-2">Beras Premium 5kg</h3>
-<p class="text-accent font-bold text-xl mb-6">Rp 75.000</p>
-<button class="mt-auto w-full bg-primary hover:bg-navy-deep text-white py-3 rounded-xl flex items-center justify-center gap-2 text-sm font-bold transition-all">
-<span class="material-symbols-outlined text-sm">shopping_cart</span>
-                        Pesan via WA
-                    </button>
-</div>
-</div>
-<div class="stagger-reveal bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm border border-accent/10 flex flex-col group hover:shadow-xl transition-all duration-300">
-<div class="aspect-[4/5] bg-gray-200 relative overflow-hidden">
-<img alt="Minyak Goreng" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWH656MyFQ4FuINUq7aTAb2Ower3dtdkDnAiYoe2qZk6PP_Q4kXn611dSvAs_TLWMdNP5BZN0yY5uBG7t_S2NnzjfEolzevJSxShFVqHQkJkKlSTsWe6ECOmoKKtXBgndlH-wSP2hbZcypo0VWa1_IKqn8PxkMje58Pay8a4cLZ7hnfLJzPqjnUYASH114XwuyxEsALHqRne-YVqrqBpsDqLOMIWeD4OWjJXCXSH3dDKzRKv5lw_oQob_2zc0qxLL-DtJP25C_9RUF"/>
-</div>
-<div class="p-6 flex flex-col flex-1">
-<h3 class="text-navy-deep dark:text-white font-bold text-lg mb-2">Minyak Goreng 2L</h3>
-<p class="text-accent font-bold text-xl mb-6">Rp 34.000</p>
-<button class="mt-auto w-full bg-primary hover:bg-navy-deep text-white py-3 rounded-xl flex items-center justify-center gap-2 text-sm font-bold transition-all">
-<span class="material-symbols-outlined text-sm">shopping_cart</span>
-                        Pesan via WA
-                    </button>
-</div>
-</div>
-<div class="stagger-reveal bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm border border-accent/10 flex flex-col group hover:shadow-xl transition-all duration-300">
-<div class="aspect-[4/5] bg-gray-200 relative overflow-hidden">
-<img alt="Telur Ayam" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ9-KEiukHRUgGo-1Q9k0UomRnoZjHl6akcnvzOn2lfijmxpzt4RE5dGNLEkk4lLS_HJJhTV2Imq9i66W1_TQa4ry1lZdivo1HuFP1dM-I-qU1BRZBIFzqBTKizvfpnTCExfIuV4W_t_NQUZ0v3VtqBxX65_8QK_14lUCk6MFYCvwemYMGIY61p6KZAbEeEpdCIzx4i8ZsGcWgRw-wwGXWdLw0YRvdmlDDghCAxfsiDnsDhQFNPuRCxihCa_3r6vQn36Dl5dqCqpAw"/>
-</div>
-<div class="p-6 flex flex-col flex-1">
-<h3 class="text-navy-deep dark:text-white font-bold text-lg mb-2">Telur Ayam 1kg</h3>
-<p class="text-accent font-bold text-xl mb-6">Rp 28.000</p>
-<button class="mt-auto w-full bg-primary hover:bg-navy-deep text-white py-3 rounded-xl flex items-center justify-center gap-2 text-sm font-bold transition-all">
-<span class="material-symbols-outlined text-sm">shopping_cart</span>
-                        Pesan via WA
-                    </button>
-</div>
-</div>
-<div class="stagger-reveal bg-white dark:bg-gray-800 rounded-2xl overflow-hidden shadow-sm border border-accent/10 flex flex-col group hover:shadow-xl transition-all duration-300">
-<div class="aspect-[4/5] bg-gray-200 relative overflow-hidden">
-<img alt="Gula Pasir" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF1jX5du9aez_JyiJU1vWPKamcJXt3hKzj8-r2XBbpJdUpZLzyTZ8hCMfBKd7C1D-YslvRJkkjKO5RXL4_YhH1f50oG0SNLC75xUEpo6jFpMFplgcTPvKCXfKX6CqwUpVdCZE1JEu7kbAwtC1hanYC9CkTjn9Ly3ar2epXABGiC15U5izK1EOU4NdYDQz-knMSp1VKnMVFNGuGzdUaRY7Goa1lk-vLwi_79irxq29Osej13_W1q3bkxdmO_DYKDbkqSmN0dghaZ-27"/>
-</div>
-<div class="p-6 flex flex-col flex-1">
-<h3 class="text-navy-deep dark:text-white font-bold text-lg mb-2">Gula Pasir 1kg</h3>
-<p class="text-accent font-bold text-xl mb-6">Rp 17.500</p>
-<button class="mt-auto w-full bg-primary hover:bg-navy-deep text-white py-3 rounded-xl flex items-center justify-center gap-2 text-sm font-bold transition-all">
-<span class="material-symbols-outlined text-sm">shopping_cart</span>
-                        Pesan via WA
-                    </button>
+<div class="flex flex-wrap gap-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-14 px-8 bg-primary text-[#181611] text-base font-bold leading-normal tracking-[0.015em] shadow-lg hover:translate-y-[-2px] transition-transform">
+                                            Shop Collection
+                                        </button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-14 px-8 border-2 border-primary text-primary dark:text-primary text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/10 transition-colors">
+                                            Explore Specials
+                                        </button>
 </div>
 </div>
 </div>
 </div>
-</section>
-<section class="py-24 px-4 md:px-8 bg-white dark:bg-background-dark reveal" id="kontak">
-<div class="max-w-screen-xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-<div class="flex flex-col gap-8">
+</div>
+</div>
+<!-- Philosophy / Feature Section -->
+<div class="bg-primary/5 dark:bg-primary/10 px-6 lg:px-40 py-16">
+<div class="max-w-[1280px] mx-auto">
+<div class="flex flex-col gap-12 @container">
+<div class="flex flex-col gap-4 items-center text-center">
+<h2 class="text-[#181611] dark:text-white text-3xl lg:text-4xl font-black leading-tight tracking-tight">
+                                    The Dapoer-CJ Philosophy
+                                </h2>
+<p class="text-[#5c543d] dark:text-[#c4bfb0] text-lg font-normal leading-relaxed max-w-[720px]">
+                                    Rooted in a 'home-cooked' passion, we bridge the gap between daily essentials and gourmet specialties with elegance, care, and quality.
+                                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-4 rounded-xl border border-[#e6e3db] dark:border-[#3d3625] bg-white dark:bg-background-dark p-8 shadow-sm hover:shadow-md transition-shadow">
+<div class="text-primary size-12 flex items-center justify-center rounded-lg bg-primary/10">
+<span class="material-symbols-outlined" style="font-size: 32px;">verified</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#181611] dark:text-white text-xl font-bold">Quality Guaranteed</h3>
+<p class="text-[#897f61] dark:text-[#a39a7e] text-base leading-relaxed">We source only the finest premium grade staples to ensure your family gets the best nutrition.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-[#e6e3db] dark:border-[#3d3625] bg-white dark:bg-background-dark p-8 shadow-sm hover:shadow-md transition-shadow">
+<div class="text-primary size-12 flex items-center justify-center rounded-lg bg-primary/10">
+<span class="material-symbols-outlined" style="font-size: 32px;">sanitizer</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#181611] dark:text-white text-xl font-bold">Hygienic Processing</h3>
+<p class="text-[#897f61] dark:text-[#a39a7e] text-base leading-relaxed">Our eel products are processed with the highest standards in controlled environments.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 rounded-xl border border-[#e6e3db] dark:border-[#3d3625] bg-white dark:bg-background-dark p-8 shadow-sm hover:shadow-md transition-shadow">
+<div class="text-primary size-12 flex items-center justify-center rounded-lg bg-primary/10">
+<span class="material-symbols-outlined" style="font-size: 32px;">favorite</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#181611] dark:text-white text-xl font-bold">Homey Passion</h3>
+<p class="text-[#897f61] dark:text-[#a39a7e] text-base leading-relaxed">Every dish is prepared to evoke the warmth of a home kitchen, just like grandma used to make.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Collections Header -->
+<div class="px-6 lg:px-40 pt-20 pb-4">
+<div class="max-w-[1280px] mx-auto border-l-4 border-primary pl-6">
+<h2 class="text-[#181611] dark:text-white text-3xl font-black leading-tight tracking-tight">The Eel Collection</h2>
+<p class="text-[#897f61] text-base">Gourmet processed delights</p>
+</div>
+</div>
+<!-- Eel Grid -->
+<div class="px-6 lg:px-40 pb-12">
+<div class="max-w-[1280px] mx-auto">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="flex flex-col gap-4 group cursor-pointer">
+<div class="relative w-full aspect-square bg-cover rounded-xl overflow-hidden shadow-sm group-hover:shadow-xl transition-all" data-alt="Frozen premium unagi vacuum pack" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDFyKGLVKE5qu-xODnDVzmR9ctraypUcS5Wk5gQzHf2XqxZspG03LBnKiMvPmijWAteakPkvXVU9JuTz9hYQBK6Xuhwk_jOkoigfOYToIQHB8GHYyKqZlPou1fTXdDnrxjBgd3bt-MUoD23e8DWXuQjgDArl6xs5TWB7zEUSjyx8pd7V-XRufQRWVTZcXYotWNwqfUOKtE1otLwZGmYGNonZ7uXqG5DYLdUbNp0SLOVyCqAFM2aaRRhuL_QiaNG7SFn1XmmJ77eMQsw");'>
+<div class="absolute top-4 right-4 bg-primary text-[#181611] text-xs font-black px-3 py-1 rounded-full uppercase">Signature</div>
+</div>
+<div class="flex justify-between items-start px-1">
 <div>
-<h2 class="text-navy-deep dark:text-white text-4xl font-bold mb-4">Hubungi Kami</h2>
-<p class="text-gray-500 dark:text-gray-400 text-lg">Silakan hubungi kami untuk pemesanan grosir atau pertanyaan seputar ketersediaan stok.</p>
+<p class="text-[#181611] dark:text-white text-lg font-bold leading-normal">Frozen Unagi Kabayaki</p>
+<p class="text-[#897f61] text-sm font-normal leading-normal">Gourmet premium quality, 250g</p>
 </div>
-<div class="space-y-8">
-<div class="flex items-start gap-5">
-<div class="size-14 rounded-2xl bg-cream-soft flex items-center justify-center shrink-0 border border-accent/10">
-<span class="material-symbols-outlined text-accent">location_on</span>
+<span class="text-primary font-bold">IDR 125k</span>
 </div>
+</div>
+<div class="flex flex-col gap-4 group cursor-pointer">
+<div class="w-full aspect-square bg-cover rounded-xl overflow-hidden shadow-sm group-hover:shadow-xl transition-all" data-alt="Ready to heat eel rice bowl set" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCPrEu66n_xYRLMLppAlLWAU4PtFXUsooNXm9xRjWUGzsjG9PoINnGDg2kalBzG95Q8bJ5Y0b-A0TqRG-tXgSqnUa0OotHl2srTfyoHDsZAXS_ASge8yJ3z9TqjLtKucpGvIc0jlxh425EJhLZAwTi-YU-YDdTGuEWy8Jv1v6-qv6gOGLi0k3bJqgFyZxSkeYu7n4f39KR27a_QaR-dj8R1gZGQKQunjXH-yDyZBDuY1fdVkVswhFtAjMf7HJvakl7To8HIB8zEFVKc");'></div>
+<div class="flex justify-between items-start px-1">
 <div>
-<h4 class="font-bold text-navy-deep dark:text-white text-lg">Alamat Toko</h4>
-<p class="text-gray-600 dark:text-gray-400">Jl. Melati No. 45, Kebayoran Baru, Jakarta Selatan, 12150</p>
+<p class="text-[#181611] dark:text-white text-lg font-bold leading-normal">Ready-to-heat Eel Bowl</p>
+<p class="text-[#897f61] text-sm font-normal leading-normal">Home-cooked style with jasmine rice</p>
+</div>
+<span class="text-primary font-bold">IDR 65k</span>
 </div>
 </div>
-<div class="flex items-start gap-5">
-<div class="size-14 rounded-2xl bg-cream-soft flex items-center justify-center shrink-0 border border-accent/10">
-<span class="material-symbols-outlined text-accent">schedule</span>
-</div>
+<div class="flex flex-col gap-4 group cursor-pointer">
+<div class="w-full aspect-square bg-cover rounded-xl overflow-hidden shadow-sm group-hover:shadow-xl transition-all" data-alt="Bottle of dark authentic eel sauce" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBH-eTTNDmFGcKccePvGLiezx-6QHoR_oDJlxgJoQjL-FmD-wQw9CTBb5bydPaU5z4fIceVfbJurDW5lFJcTY8REtKZf-qaFJVRt6U2_gvWtC0jzJCfWjCRsz5HPC6SWSt5BywJM3nOd-DTHmwMzHtXxRcc8KX5n3MiapNfOyw3Ku7S42PGaVj238Yep5pmXrKobqg9uRtqIYUbdJR39y-SaemaMUWs57vDtqJTZ6SwpzUOSb8eLxAnEX9Ykrw_8U4JSa0bnvvA3Fz9");'></div>
+<div class="flex justify-between items-start px-1">
 <div>
-<h4 class="font-bold text-navy-deep dark:text-white text-lg">Jam Operasional</h4>
-<p class="text-gray-600 dark:text-gray-400">Senin - Sabtu: 07:00 - 18:00 WIB<br/>Minggu: 08:00 - 12:00 WIB</p>
+<p class="text-[#181611] dark:text-white text-lg font-bold leading-normal">Signature Eel Glaze</p>
+<p class="text-[#897f61] text-sm font-normal leading-normal">Authentic secret recipe sauce</p>
 </div>
-</div>
-<div class="flex items-start gap-5">
-<div class="size-14 rounded-2xl bg-cream-soft flex items-center justify-center shrink-0 border border-accent/10">
-<span class="material-symbols-outlined text-accent">call</span>
-</div>
-<div>
-<h4 class="font-bold text-navy-deep dark:text-white text-lg">WhatsApp</h4>
-<p class="text-gray-600 dark:text-gray-400">+62 812 3456 7890</p>
+<span class="text-primary font-bold">IDR 45k</span>
 </div>
 </div>
 </div>
 </div>
-<div class="bg-cream-soft dark:bg-gray-800 rounded-[2rem] overflow-hidden min-h-[400px] relative shadow-inner border border-accent/5">
-<div class="absolute inset-0 flex items-center justify-center flex-col text-gray-400 p-8 text-center">
-<div class="absolute inset-0 bg-cover bg-center opacity-70 grayscale hover:grayscale-0 transition-all duration-700 cursor-crosshair" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC0-ZNTJ5lvO-A-AfOGb_6Vlr3jD_aDYtqIHcRip0967f-bYsxvOQKULeNcSW1HnuainYqlVN1uQGDdbp6kP2nkZfbsDJgUeoZeJ2QcQfEDSBGqyIN61kDBV_U-qWAYs05LQDSnH_9YTEqvusxGvjkbGzI8RPicBNDwepFqqIaHX9JzUzq6d5GMm-w2QMXyM-ekrR-njjcvMfxS7bX5exXKphsWg1WzNyEuJ2D0plvpkVhxx0Es6z6_43iDPB4284rQaOVdutQzS8OI');"></div>
-<div class="relative z-10 bg-white/90 dark:bg-gray-900/90 p-6 rounded-2xl shadow-xl backdrop-blur-sm border border-accent/20">
-<span class="material-symbols-outlined text-accent text-5xl mb-2">map</span>
-<p class="text-navy-deep dark:text-white font-bold">Lokasi Dapoer C-J</p>
-<p class="text-xs text-gray-500 mt-1">Klik untuk navigasi Google Maps</p>
+</div>
+<!-- Sembako Header -->
+<div class="px-6 lg:px-40 pt-12 pb-4">
+<div class="max-w-[1280px] mx-auto border-l-4 border-primary pl-6">
+<h2 class="text-[#181611] dark:text-white text-3xl font-black leading-tight tracking-tight">Premium Essentials</h2>
+<p class="text-[#897f61] text-base">Finest Grade Sembako for your home</p>
+</div>
+</div>
+<!-- Sembako Grid -->
+<div class="px-6 lg:px-40 pb-24">
+<div class="max-w-[1280px] mx-auto">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Rice -->
+<div class="bg-white dark:bg-[#2d2716] p-4 rounded-xl border border-[#e6e3db] dark:border-[#3d3625]">
+<div class="w-full aspect-square bg-cover rounded-lg mb-4" data-alt="bag of high quality organic rice" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAqmVBAgEamnbsF0Bjfcn6_08m7SLF_IBnmz7zwh0K3OkN-vLIPuNNALOz-lnP1wsEUoJo_EGRaG0M-88UKwLubi8_2dYCY7meEVN9VwJ2xTY9pQlzNJXwtHps3as0sEeyv8kq5E8JFp7BamV-5S9N-anmaCnOZA6a2WqhLtqBe-21Y2H5jChoXcBp-84bzmxWJu-oxx5DIxXa3YgzpRcITfFKAWe3C5-2wyxY2iiXAokVTxiS0mjMjcpYJLL3Qi_htfM4U7uPkG8At");'></div>
+<p class="text-[#181611] dark:text-white font-bold">Premium Pandan Wangi</p>
+<p class="text-[#897f61] text-sm">Organic Grade A Rice, 5kg</p>
+<button class="w-full mt-4 py-2 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all">Add to Cart</button>
+</div>
+<!-- Oil -->
+<div class="bg-white dark:bg-[#2d2716] p-4 rounded-xl border border-[#e6e3db] dark:border-[#3d3625]">
+<div class="w-full aspect-square bg-cover rounded-lg mb-4" data-alt="bottle of clear golden cooking oil" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC-dnAt22pzOmcvwHA2ijR9KkghRhAF_q1ShiVC7_MvllD0KH1N4EG7TImHfZ8eDjx_oTGCXEXefwCneQSEzxzJVaAOXTacnd_d-ypjy47DlQH-KR0ljzvhUiQet3nDrUaeW1we4LecJ0kMhP6-5c2lphiLtMmKfxcL84vfCKwOHNuL8UIfsH7sgREScC-5WR29mUZVEfD3doN_QAcJbmef0CHcaS7EBKZi7ivlXKKm985SsBY78Eje7m2Vr0EjEmm2Yz4u9eUJyF38");'></div>
+<p class="text-[#181611] dark:text-white font-bold">Fortified Cooking Oil</p>
+<p class="text-[#897f61] text-sm">Double Fractionated, 2L</p>
+<button class="w-full mt-4 py-2 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all">Add to Cart</button>
+</div>
+<!-- Sugar -->
+<div class="bg-white dark:bg-[#2d2716] p-4 rounded-xl border border-[#e6e3db] dark:border-[#3d3625]">
+<div class="w-full aspect-square bg-cover rounded-lg mb-4" data-alt="white refined sugar in packaging" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCsbaLB3NuDfZYN_1jHSwQbqpJ5wea1pa9rqMt8z3IrfI61IptDkR2wvO-asSLJpkPbcmnkJUlvd2I3WK_SpXVj_CzbMc9K9ckeV09dl_9mkQJyehppZjhBqnPCTkk6X2qP6VpxrJNwr91tyChzydITnXVIIF5P-e7Ez_XttUdH6vuU4IcWSLRLpJCNMHwHtS2eIA7P6jJIf20gWXd6K3N0G7s6098PxWjSGeRrmujWd8qLtJadNSirbN-t0s33tXGuL74W8mOlcKZU");'></div>
+<p class="text-[#181611] dark:text-white font-bold">Refined Cane Sugar</p>
+<p class="text-[#897f61] text-sm">Pure Crystalized, 1kg</p>
+<button class="w-full mt-4 py-2 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all">Add to Cart</button>
+</div>
+<!-- Flour -->
+<div class="bg-white dark:bg-[#2d2716] p-4 rounded-xl border border-[#e6e3db] dark:border-[#3d3625]">
+<div class="w-full aspect-square bg-cover rounded-lg mb-4" data-alt="bag of all purpose white flour" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKAn44h3LMAUA-1Ftui6iy_d2nEAo1y39EhDu5wiPuyEqIR47k4ztRN4T7is3Vr6RMx-ok8tvrxL3nemlTNQATpv18SrbK2kk0ndtYROSrbUMV35Wawh3nLjzN5mBWLjitmmFfzMU2h9kZhNWrJ2Z06LAOIkoMlP3dPhnODD_Yx0u_9qNcfdsBNhFJnx2YGc2hdENhnS5fOFnrGFOmciKFiSaTxHsXox7bpgHeZkyBbyDXhRbvz2mQNgTmlV2cQ0kynqxSobiFTahL");'></div>
+<p class="text-[#181611] dark:text-white font-bold">Premium Wheat Flour</p>
+<p class="text-[#897f61] text-sm">High Protein, 1kg</p>
+<button class="w-full mt-4 py-2 border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all">Add to Cart</button>
 </div>
 </div>
 </div>
 </div>
-</section>
-<footer class="bg-navy-deep text-white pt-20 pb-10 px-4 md:px-8">
-<div class="max-w-screen-xl mx-auto flex flex-col items-center gap-12">
-<div class="flex flex-col items-center text-center gap-4">
-<div class="flex items-center gap-3">
-<span class="material-symbols-outlined text-accent text-4xl">storefront</span>
-<h2 class="text-3xl font-bold tracking-tight font-serif">Dapoer C-J</h2>
+<!-- Footer / CTA -->
+<footer class="bg-[#181611] text-white px-6 lg:px-40 py-20">
+<div class="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-6 md:col-span-2">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined" style="font-size: 40px;">dinner_dining</span>
+<h2 class="text-3xl font-black tracking-tight">Dapoer-CJ</h2>
 </div>
-<p class="text-gray-400 text-lg max-w-md font-light">"Kehangatan keluarga bermula dari dapur yang lengkap."</p>
-<div class="flex gap-4 mt-4">
-<a class="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-accent hover:border-accent transition-all" href="#">
-<span class="material-symbols-outlined text-sm">public</span>
+<p class="text-[#897f61] text-lg max-w-md">
+                                Bringing the comfort of authentic home-cooked flavors and the reliability of premium staples directly to your doorstep.
+                            </p>
+<div class="flex gap-4">
+<a class="size-10 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-[#181611] transition-all" href="#">
+<span class="material-symbols-outlined">social_leaderboard</span>
 </a>
-<a class="size-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-accent hover:border-accent transition-all" href="#">
-<span class="material-symbols-outlined text-sm">alternate_email</span>
+<a class="size-10 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-[#181611] transition-all" href="#">
+<span class="material-symbols-outlined">camera</span>
+</a>
+<a class="size-10 rounded-full border border-primary/30 flex items-center justify-center text-primary hover:bg-primary hover:text-[#181611] transition-all" href="#">
+<span class="material-symbols-outlined">mail</span>
 </a>
 </div>
 </div>
-<div class="w-full h-px bg-white/10"></div>
-<div class="flex flex-col md:flex-row justify-between items-center w-full gap-6 text-gray-500 text-sm">
-<p>© 2024 Dapoer C-J. Seluruh hak cipta dilindungi.</p>
-<div class="flex gap-8">
-<a class="hover:text-accent transition-colors" href="#">Syarat &amp; Ketentuan</a>
-<a class="hover:text-accent transition-colors" href="#">Kebijakan Privasi</a>
+<div class="flex flex-col gap-6">
+<h3 class="text-xl font-bold">Quick Links</h3>
+<ul class="flex flex-col gap-3 text-[#897f61]">
+<li><a class="hover:text-primary transition-colors" href="#">Our Products</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Order Guide</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Testimonials</a></li>
+</ul>
 </div>
+<div class="flex flex-col gap-6">
+<h3 class="text-xl font-bold">Contact Us</h3>
+<ul class="flex flex-col gap-3 text-[#897f61]">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">location_on</span> Jakarta, Indonesia</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">phone</span> +62 812-3456-7890</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-sm">schedule</span> 09:00 - 18:00 WIB</li>
+</ul>
+</div>
+</div>
+<div class="max-w-[1280px] mx-auto mt-20 pt-8 border-t border-[#3d3625] text-[#5c543d] text-sm flex flex-col md:flex-row justify-between items-center gap-4">
+<p>© 2024 Dapoer-CJ. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
 </div>
 </div>
 </footer>
-<a class="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white size-16 rounded-full flex items-center justify-center shadow-[0_10px_30px_rgba(37,211,102,0.4)] hover:scale-110 transition-transform animate-pulse-subtle" href="https://wa.me/6281234567890">
-<span class="material-symbols-outlined text-4xl">chat</span>
-<span class="absolute -top-1 -right-1 flex h-5 w-5">
-<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-<span class="relative inline-flex rounded-full h-5 w-5 bg-red-500 border-2 border-white"></span>
-</span>
+</main>
+<!-- Floating WhatsApp CTA -->
+<a class="fixed bottom-8 right-8 z-[100] group flex items-center gap-3" href="https://wa.me/yournumber">
+<div class="bg-white dark:bg-background-dark px-4 py-2 rounded-full shadow-xl border border-primary text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity translate-x-4 group-hover:translate-x-0">
+                    Order via WhatsApp
+                </div>
+<div class="size-16 bg-primary rounded-full flex items-center justify-center text-[#181611] shadow-2xl hover:scale-110 transition-transform cursor-pointer border-4 border-white dark:border-background-dark">
+<span class="material-symbols-outlined" style="font-size: 32px; font-variation-settings: 'FILL' 1;">chat</span>
+</div>
 </a>
-
+</div>
+</div>
 </body></html>

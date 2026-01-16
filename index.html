@@ -47,43 +47,45 @@
 </head>
 <body class="bg-background-light dark:bg-background-dark text-[#1a1814] dark:text-gray-100">
 <div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
-<header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800 px-6 lg:px-20 py-4">
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b px-6 lg:px-20 py-4">
+
+  <!-- Checkbox HARUS di sini -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
+
   <div class="max-w-7xl mx-auto flex items-center justify-between">
 
     <!-- Logo -->
     <div class="flex items-center gap-2">
       <span class="material-symbols-outlined text-primary text-3xl">restaurant_menu</span>
-      <h1 class="text-2xl font-bold tracking-tight serif-font text-primary">Dapoer-CJ</h1>
+      <h1 class="text-2xl font-bold serif-font text-primary">Dapoer-CJ</h1>
     </div>
 
-    <!-- Checkbox (hidden) -->
-    <input type="checkbox" id="menu-toggle" class="hidden peer">
-
-    <!-- Hamburger icon (HP) -->
+    <!-- Hamburger -->
     <label for="menu-toggle" class="md:hidden cursor-pointer">
       <span class="material-symbols-outlined text-3xl text-primary">menu</span>
     </label>
 
     <!-- Menu Desktop -->
     <nav class="hidden md:flex items-center gap-10 text-sm font-medium">
-      <a href="index.html" class="hover:text-primary">Beranda</a>
-      <a href="Belut.html" class="hover:text-primary">Olahan Belut</a>
-      <a href="Menu.html" class="hover:text-primary">Sembako</a>
-      <a href="contact.html" class="hover:text-primary">Kontak</a>
+      <a href="index.html">Beranda</a>
+      <a href="Belut.html">Olahan Belut</a>
+      <a href="Menu.html">Sembako</a>
+      <a href="contact.html">Kontak</a>
     </nav>
   </div>
 
-  <!-- Menu Mobile -->
-  <nav
-    class="md:hidden max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300">
+  <!-- Menu Mobile (SEKARANG KENA peer-checked) -->
+  <nav class="md:hidden max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300">
     <ul class="flex flex-col gap-4 mt-6 text-sm font-medium">
-      <li><a href="index.html" class="block hover:text-primary">Beranda</a></li>
-      <li><a href="Belut.html" class="block hover:text-primary">Olahan Belut</a></li>
-      <li><a href="Menu.html" class="block hover:text-primary">Sembako</a></li>
-      <li><a href="contact.html" class="block hover:text-primary">Kontak</a></li>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="Belut.html">Olahan Belut</a></li>
+      <li><a href="Menu.html">Sembako</a></li>
+      <li><a href="contact.html">Kontak</a></li>
     </ul>
   </nav>
+
 </header>
+
 
 <main class="flex-1">
 <section class="relative h-[85vh] flex items-center overflow-hidden">

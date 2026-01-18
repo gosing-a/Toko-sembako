@@ -34,50 +34,57 @@
 <div class="layout-container flex h-full grow flex-col">
 <header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b px-6 lg:px-20 py-4">
 
-  <!-- Checkbox HARUS di sini -->
+  <!-- Checkbox -->
   <input type="checkbox" id="menu-toggle" class="hidden peer">
 
   <div class="max-w-7xl mx-auto flex items-center justify-between">
 
-   <!-- Logo -->
-  <img
-    src="assets/Logo.jpg"
-    alt="Logo Dapoer-CJ"
-    class="h-10 w-auto"
-  >
+    <!-- KIRI: Logo + Nama -->
+    <div class="flex items-center gap-3">
+      <img
+        src="assets/Logo.jpg"
+        alt="Logo Dapoer-CJ"
+        class="h-10 w-auto"
+      >
 
-  <h1 class="text-2xl font-bold serif-font text-primary">
-    Dapoer-CJ
-  </h1>
+      <h1 class="text-2xl font-bold serif-font text-primary">
+        Dapoer-CJ
+      </h1>
+    </div>
 
-  <!-- Hamburger (SVG, ANTI font error) -->
-  <label for="menu-toggle" class="md:hidden cursor-pointer ml-2">
-    <svg
-      class="w-7 h-7 text-primary"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        d="M4 6h16M4 12h16M4 18h16"
-      />
-    </svg>
-  </label>
+    <!-- KANAN: Hamburger + Menu Desktop -->
+    <div class="flex items-center gap-6">
 
-    <!-- Menu Desktop -->
-    <nav class="hidden md:flex items-center gap-10 text-sm font-medium">
-      <a href="index.html">Beranda</a>
-      <a href="Belut.html">Olahan Belut</a>
-      <a href="Menu.html">Sembako</a>
-      <a href="contact.html">Kontak</a>
-    </nav>
+      <!-- Hamburger (mobile) -->
+      <label for="menu-toggle" class="md:hidden cursor-pointer">
+        <svg
+          class="w-7 h-7 text-primary"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </label>
+
+      <!-- Menu Desktop -->
+      <nav class="hidden md:flex items-center gap-10 text-sm font-medium">
+        <a href="index.html">Beranda</a>
+        <a href="Belut.html">Olahan Belut</a>
+        <a href="Menu.html">Sembako</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+
+    </div>
   </div>
 
-  <!-- Menu Mobile (SEKARANG KENA peer-checked) -->
+  <!-- Menu Mobile -->
   <nav class="md:hidden max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300">
     <ul class="flex flex-col gap-4 mt-6 text-sm font-medium">
       <li><a href="index.html">Beranda</a></li>
@@ -88,6 +95,7 @@
   </nav>
 
 </header>
+
 <main class="flex-1 px-10 xl:px-40 py-8">
 <div class="layout-content-container flex flex-col max-w-[1200px] mx-auto flex-1">
 <div class="flex flex-wrap justify-between items-end gap-4 py-6">

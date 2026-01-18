@@ -33,8 +33,11 @@
 <body class="bg-background-light dark:bg-background-dark font-display text-[#181611] dark:text-white transition-colors duration-300">
 <header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-[#f4f3f0] dark:border-[#3d3624]">
   <div class="max-w-7xl mx-auto px-4 md:px-20 lg:px-40 py-3 flex items-center justify-between">
+ <!-- Checkbox HARUS di sini -->
+  <input type="checkbox" id="menu-toggle" class="hidden peer">
 
-    <!-- Logo -->
+  <div class="max-w-7xl mx-auto flex items-center justify-between">
+
    <!-- Logo -->
 <div class="flex items-center gap-3">
   <img
@@ -47,29 +50,30 @@
   </h1>
 </div>
 
-    <!-- Navigation -->
-    <nav class="hidden lg:flex items-center gap-6">
-      <a href="index.html" class="text-sm font-medium hover:text-primary transition-colors">
-        Beranda
-      </a>
-      <a href="Belut.html" class="text-sm font-bold text-primary border-b-2 border-primary">
-        Olahan Belut
-      </a>
-      <a href="Menu.html" class="text-sm font-medium hover:text-primary transition-colors">
-        Bahan-Bahan Masak
-      </a>
-      <a href="contact.html" class="text-sm font-medium hover:text-primary transition-colors">
-        Kontak
-      </a>
+
+    <!-- Hamburger -->
+    <label for="menu-toggle" class="md:hidden cursor-pointer">
+      <span class="material-symbols-outlined text-3xl text-primary">menu</span>
+    </label>
+
+    <!-- Menu Desktop -->
+    <nav class="hidden md:flex items-center gap-10 text-sm font-medium">
+      <a href="index.html">Beranda</a>
+      <a href="Belut.html">Olahan Belut</a>
+      <a href="Menu.html">Sembako</a>
+      <a href="contact.html">Kontak</a>
     </nav>
+  </div>
 
-    <!-- CTA -->
-    <div class="flex items-center">
-      <button class="bg-primary text-[#181611] px-5 py-2 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all shadow-sm">
-        Pesan Sekarang
-      </button>
-    </div>
-
+  <!-- Menu Mobile (SEKARANG KENA peer-checked) -->
+  <nav class="md:hidden max-h-0 overflow-hidden peer-checked:max-h-96 transition-all duration-300">
+    <ul class="flex flex-col gap-4 mt-6 text-sm font-medium">
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="Belut.html">Olahan Belut</a></li>
+      <li><a href="Menu.html">Sembako</a></li>
+      <li><a href="contact.html">Kontak</a></li>
+    </ul>
+  </nav>
   </div>
 </header>
 
